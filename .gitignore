@@ -27,6 +27,8 @@ share/python-wheels/
 MANIFEST
 venv/*
 .venv/*
+.env/*
+.env
 
 
 # PyInstaller
