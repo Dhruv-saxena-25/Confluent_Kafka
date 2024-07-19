@@ -14,7 +14,7 @@ import pandas as pd
 from typing import List
 from src.entity.generic import Generic, instance_to_dict
 
-FILE_PATH = "/home/avnish/iNeuron_Private_Intelligence_Limited/industry_ready_project/projects/data_pipeline/kafka-sensor/sample_data/sensor/aps_failure_training_set1.csv"
+FILE_PATH = "../sample_data\\kafka-sensor-topic\\aps_failure_training_set1.csv"
 
 
 def car_to_dict(car: Generic, ctx):
